@@ -1,5 +1,5 @@
 
-$repos = ("Services.Localisation", "Services.ApiGateway", "Services.ApiGateway", "Services.Identity", "Services.User")
+$repos = ("Services.Localisation", "Services.ApiGateway", "Services.Identity", "Services.User", "Services.Run", "Services.Score", "Services.Achievement", "Services.Route", "Services.Operations" , "Services.Resource")
 
 foreach($repo in $repos) {
     Write-Host "=========================================="
